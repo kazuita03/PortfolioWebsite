@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {Routes, Route, Redirect, Link} from 'react-router-dom'
+
+import Home from './routes/Home'
+import Photos from './routes/Photos'
+import Resume from './routes/Resume'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    {/* List of the routes of navbar. use when routing to new page.  */}
+      <Routes>
+        <Route path ='/' element={<Home />} />
+        <Route path ='/Photos' element={<Photos />} />
+        <Route path ='/Resume' element={<Resume />} />
+      </Routes> 
+    </>
   );
 }
 

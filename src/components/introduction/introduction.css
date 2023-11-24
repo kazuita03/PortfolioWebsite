@@ -1,0 +1,81 @@
+
+
+.introContent {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: 0 auto;
+  }
+.introduction .introHeaderText{
+    text-align: center;
+    margin-left: 0%;
+    font-size: 25px;
+    width: 100%;
+}
+
+.introduciton .introText{
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    align-content: left;
+} 
+
+
+
+
+.introduction > div p {
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+
+}
+
+
+
+.connect-button button {
+    background-color: #fff;
+    color: #007BFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.connect-button button:hover {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+@media screen and (max-width:940px){
+    .introduction {
+        margin: 1rem 0;
+    }
+
+    .introduction > div p {
+        margin: 1rem;
+        font-size: 1rem;
+
+    }
+
+    .introduction .container{
+        grid-template-columns: 1fr;
+        grid-gap: .5rem;
+    }
+}
+
+
+@media screen and (max-width: 478px){
+    .introduction > div p{
+        margin: 1rem .5rem;
+    }
+
+}
