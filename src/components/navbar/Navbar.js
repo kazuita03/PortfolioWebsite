@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className = 'navbar'>
             <div className = 'container'>
                 
-                <Link to ='/'><h1 className='logo'><span> <IoCafeOutline />Kazuma</span>Itagaki</h1></Link>
+                <Link to ='/'><h1 className='logo'><span> <IoCafeOutline />KAZUM</span>03</h1></Link>
                 
 
                 <ul className = {click ? 'nav-menu active' : 'nav-menu'}>
@@ -26,7 +26,7 @@ const Navbar = () => {
                             Resume
                         </a>
                     </li>
-                    {/* <li><Link to ='/photos'><a href= '#'>Photos </a></Link></li> */}
+                    <li><Link to ='/photos'><a href= '#'>Photos </a></Link></li>
                 </ul>
                 <div className = 'hamburger' onClick={handleClick}>
                     {click ? (<FaRegTimesCircle className  = 'icon' />) :  (<GrMenu className = 'icon'/>)}
@@ -37,3 +37,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+

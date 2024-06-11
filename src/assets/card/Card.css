@@ -27,8 +27,13 @@
     width: 90%;
     border-radius: 5px;
     padding: 0.5rem 1rem;
-    background-color: #2563eb;
+    background-color: #8e88a9;
     color: white;
     text-decoration: none;
     margin: 0.5rem 0.5rem;
+  }
+
+  .card-btn:hover{
+    background-color: white;
+    color: #8e88a9;
   }

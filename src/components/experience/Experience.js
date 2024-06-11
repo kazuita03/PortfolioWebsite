@@ -4,6 +4,7 @@ import kccLogo from '../../assets/images/KCCLogo.png'
 import floopLogo from '../../assets/images/FloopLogo.png'
 import dropoffLogo from '../../assets/images/DropoffLogo.png'
 import easyInfoOnInformatics from '../../assets/images/EasyInfoOnInformaticsLgo.png'
+import './Experience.css'
 
 function Experience() {
     return (
@@ -14,17 +15,17 @@ function Experience() {
                     imgSrc={kccLogo}
                     imgAlt="Card Image 1"
                     title="Kids Code Club"
-                    description="This is the card description section. You can add more details about the product here"
+                    description="Software Engineer Internship"
                     buttonText="Learn More"
-                    link="card1"
+                    link="kidscodeclub2023"
                     />
                     <Card
                     imgSrc={kccLogo}
                     imgAlt="Card Image 2"
                     title="Kids Code Club"
-                    description="This is the card description section. You can add more details about the product here"
+                    description="Software Engineer Internship"
                     buttonText="Learn More"
-                    link="card2"
+                    link="kidscodeclub2022"
                     />
                 </div>
                 <div className="col-md-4 justify-content-center">
@@ -33,27 +34,28 @@ function Experience() {
                     imgAlt="Card Image 1"
                     title="Floop Edu"
                     buttonText="Learn More"
-                    description="User Experience Designer"
-                    link="card3"
+                    description="User Experience Design Internship"
+                    link="floopedu2022"
                     />
                 </div>
                 <div className="col-md-4 justify-content-center">
-                    <Card
-                    imgSrc={dropoffLogo}
-                    imgAlt="Card Image 1"
-                    title="DropOff"
-                    description="hackathon project"
-                    buttonText="Learn More"
-                    link="card4"
-                    />
-
+                    
                     <Card
                     imgSrc={easyInfoOnInformatics}
                     imgAlt="Card Image 3"
                     title="Easy Info On Informatics"
-                    description="This is the card description section. You can add more details about the product here"
+                    description="Undergraduate Project"
                     buttonText="Learn More"
-                    link="card5"
+                    link="easyinfooninformatics2022"
+                    />
+
+                    <Card
+                    imgSrc={dropoffLogo}
+                    imgAlt="Card Image 1"
+                    title="DropOff"
+                    description="Hackathon Project"
+                    buttonText="Learn More"
+                    link="dropoff2020"
                     />
                 </div>
             </div>

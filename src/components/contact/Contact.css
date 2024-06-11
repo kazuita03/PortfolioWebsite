@@ -1,0 +1,15 @@
+.Contact button {
+    background-color: #fff;
+    color: #8e88a9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+  
+.Contact button:hover {
+    background-color: #8e88a9;
+    color: #fff;
+}

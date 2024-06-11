@@ -9,7 +9,7 @@ const Resume = () => {
   return (
     <div>
         <Navbar />
-        <h1>hello?</h1>
+        
         <Footer />
     </div>
   )
